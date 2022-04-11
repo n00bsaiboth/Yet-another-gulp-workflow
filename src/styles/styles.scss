@@ -1,0 +1,27 @@
+$blue: #00f;
+$red: #f00;
+$white: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: $white;
+}
+
+h2 {
+  color: $red;
+}
+
+
+body {
+  background-color: $blue;
+}

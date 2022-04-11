@@ -1,0 +1,1 @@
+"use strict";function returnSum(r,t){return r+t}

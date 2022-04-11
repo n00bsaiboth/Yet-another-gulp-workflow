@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'myfont';
+  src: url('../fonts/myfont.eot');
+  src: url('../fonts/myfont.eot?#iefix') format('eot'),
+  url('../fonts/myfont.woff') format('woff'),
+  url('../fonts/myfont.ttf') format('truetype'),
+  url('../fonts/myfont.svg#myfont') format('svg');
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  
+}
+footer::before {
+  content: "\EA01";
+}
